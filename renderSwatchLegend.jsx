@@ -24,7 +24,7 @@
 //////////////////////////////////////////////////////////////////
 doc = activeDocument,
 swatches = doc.swatches.getSelected(),
-cols = 4, // number of columns in group
+cols = 10, // number of columns in group
 displayAs = "RGBColor", //or "CMYKColor"
 printColors = ["HEX", "RGB", "CMYK", "LAB", "GrayScale"], // RGB, CMYK, LAB and/or GrayScale
 colorSeparator = " ", // Character used to separate the colours eg "|" output = R: XXX|G: XXX|B: XXX
